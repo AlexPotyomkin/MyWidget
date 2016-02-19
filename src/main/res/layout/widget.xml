@@ -18,12 +18,11 @@
 
         <TextView
             android:id="@+id/data_text"
-            android:layout_width="@dimen/text_view_width"
-            android:layout_height="@dimen/text_view_height"
+            android:layout_width="@dimen/data_text_view_width"
+            android:layout_height="@dimen/data_text_view_height"
             android:layout_marginTop="4dp"
             android:layout_weight="6"
             android:gravity="center"
-            android:text="4.02.2016"
             android:textColor="@color/white"
             android:textSize="22sp"
             android:textStyle="bold"/>
@@ -39,35 +38,158 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/button_1_inc"
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="2"
+            android:background="@drawable/arrow_up_button_selector"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/button_2_inc"
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="2"
+            android:background="@drawable/arrow_up_button_selector"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/button_3_inc"
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="2"
+            android:background="@drawable/arrow_up_button_selector"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/button_4_inc"
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="2"
+            android:background="@drawable/arrow_up_button_selector"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="@dimen/text_view_height"
+            android:text="0"
+            android:layout_weight="2"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="@dimen/margin_tv"
+            android:layout_marginRight="@dimen/margin_tv"
+            android:gravity="center"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="@dimen/text_view_height"
+            android:text="0"
+            android:layout_weight="2"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="@dimen/margin_tv"
+            android:layout_marginRight="@dimen/margin_tv"
+            android:gravity="center"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="@dimen/text_view_height"
+            android:text="0"
+            android:layout_weight="2"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="@dimen/margin_tv"
+            android:layout_marginRight="@dimen/margin_tv"
+            android:gravity="center"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="@dimen/text_view_height"
+            android:text="0"
+            android:layout_weight="2"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="@dimen/margin_tv"
+            android:layout_marginRight="@dimen/margin_tv"
+            android:gravity="center"
+            android:textSize="22sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button_1"
+            android:id="@+id/button_1_dic"
             android:layout_width="@dimen/main_button_width"
             android:layout_height="@dimen/button_height"
             android:layout_weight="2"
-            android:text="0" />
+            android:background="@drawable/arrow_down_button_selector"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="4dp" />
 
         <Button
-            android:id="@+id/button_2"
+            android:id="@+id/button_2_dic"
             android:layout_width="@dimen/main_button_width"
             android:layout_height="@dimen/button_height"
             android:layout_weight="2"
-            android:text="0" />
+            android:background="@drawable/arrow_down_button_selector"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="4dp" />
 
         <Button
-            android:id="@+id/button_3"
+            android:id="@+id/button_3_dic"
             android:layout_width="@dimen/main_button_width"
             android:layout_height="@dimen/button_height"
             android:layout_weight="2"
-            android:text="0" />
+            android:background="@drawable/arrow_down_button_selector"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="4dp" />
 
         <Button
-            android:id="@+id/button_4"
+            android:id="@+id/button_4_dic"
             android:layout_width="@dimen/main_button_width"
             android:layout_height="@dimen/button_height"
             android:layout_weight="2"
-            android:text="0" />
+            android:background="@drawable/arrow_down_button_selector"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="4dp" />
 
     </LinearLayout>
+
 </LinearLayout>

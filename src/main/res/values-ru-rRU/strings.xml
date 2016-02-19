@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Виджет</string>
+    <string name="name_of_tab_1">Статистика</string>
+    <string name="name_of_tab_2">График</string>
+    <string name="Date">Дата</string>
+    <string name="Count1">Знач.1</string>
+    <string name="Count2">Знач.2</string>
+    <string name="Count3">Знач.3</string>
+    <string name="Count4">Знач.4</string>
+
+</resources>

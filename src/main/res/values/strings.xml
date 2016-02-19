@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MyWidget</string>
+    <string name="name_of_tab_1">Statistics</string>
+    <string name="name_of_tab_2">Chart</string>
+    <string name="Date">Date</string>
+    <string name="Count1">Count1</string>
+    <string name="Count2">Count2</string>
+    <string name="Count3">Count3</string>
+    <string name="Count4">Count4</string>
+
 </resources>
